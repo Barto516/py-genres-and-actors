@@ -18,7 +18,8 @@ def main() -> Any:
         ("Kianu", "Reaves"),
         ("Scarlett", "Keegan"),
         ("Will", "Smith"),
-        ("Jaden", "Smith")
+        ("Jaden", "Smith"),
+        ("Scarlett", "Johanson"),
     ]
     for f_name, l_name in actors:
         Actor.objects.create(first_name=f_name, last_name=l_name)
